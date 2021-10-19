@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react'
-
-import './styles/app.scss'
+import AboutUs from './pages/AboutUs'
 
 function App() {
-  return <div></div>
+  return (
+    <div className="App">
+      <AboutUs />
+    </div>
+  )
 }
 
 export default App
